@@ -1,0 +1,14 @@
+Package: libraspberrypi-doc
+Source: raspberrypi-firmware
+Version: 1.20160216-1compass1
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.org>
+Installed-Size: 32957
+Depends: libraspberrypi0 (= 1.20160216-1compass1)
+Section: libdevel
+Priority: extra
+Homepage: https://github.com/raspberrypi/firmware
+Description: EGL/GLES/OpenVG/etc. libraries for the Raspberry Pi's VideoCore IV (headers)
+ This package contains headers, example code, and other development files for
+ implementations of EGL, OpenGL ES, OpenVG, OpenWF Composition, and others for
+ the Raspberry Pi's VideoCore IV multimedia processor.

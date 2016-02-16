@@ -1,0 +1,13 @@
+Package: libraspberrypi-bin
+Source: raspberrypi-firmware
+Version: 1.20160216-1compass1
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.org>
+Installed-Size: 939
+Depends: libraspberrypi0 (= 1.20160216-1compass1)
+Section: misc
+Priority: extra
+Homepage: https://github.com/raspberrypi/firmware
+Description: Miscellaneous Raspberry Pi utilities
+ This package contains various utilities for interacting with the Raspberry
+ Pi's VideoCore IV.

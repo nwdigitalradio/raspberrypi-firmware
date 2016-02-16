@@ -1,0 +1,5 @@
+libraspberrypi-bin_1.20160216-1compass1_armhf.deb misc extra
+libraspberrypi-dev_1.20160216-1compass1_armhf.deb libdevel extra
+libraspberrypi-doc_1.20160216-1compass1_armhf.deb libdevel extra
+libraspberrypi0_1.20160216-1compass1_armhf.deb libs extra
+raspberrypi-bootloader_1.20160216-1compass1_armhf.deb admin extra

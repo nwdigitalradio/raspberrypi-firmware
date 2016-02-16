@@ -1,0 +1,12 @@
+Package: raspberrypi-bootloader
+Source: raspberrypi-firmware
+Version: 1.20160216-1compass1
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.org>
+Installed-Size: 65609
+Section: admin
+Priority: extra
+Homepage: https://github.com/raspberrypi/firmware
+Description: Raspberry Pi bootloader
+ This package contains the Raspberry Pi bootloader (plus, temporarily, a
+ kernel).

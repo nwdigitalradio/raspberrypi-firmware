@@ -1,0 +1,234 @@
+#!/bin/sh
+rm -f /boot/COPYING.linux
+dpkg-divert --package rpikernelhack --remove --rename /boot/COPYING.linux
+sync
+rm -f /boot/LICENCE.broadcom
+dpkg-divert --package rpikernelhack --remove --rename /boot/LICENCE.broadcom
+sync
+rm -f /boot/bcm2708-rpi-b-plus.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/bcm2708-rpi-b-plus.dtb
+sync
+rm -f /boot/bcm2708-rpi-b.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/bcm2708-rpi-b.dtb
+sync
+rm -f /boot/bcm2708-rpi-cm.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/bcm2708-rpi-cm.dtb
+sync
+rm -f /boot/bcm2709-rpi-2-b.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/bcm2709-rpi-2-b.dtb
+sync
+rm -f /boot/bootcode.bin
+dpkg-divert --package rpikernelhack --remove --rename /boot/bootcode.bin
+sync
+rm -f /boot/fixup.dat
+dpkg-divert --package rpikernelhack --remove --rename /boot/fixup.dat
+sync
+rm -f /boot/fixup_cd.dat
+dpkg-divert --package rpikernelhack --remove --rename /boot/fixup_cd.dat
+sync
+rm -f /boot/fixup_db.dat
+dpkg-divert --package rpikernelhack --remove --rename /boot/fixup_db.dat
+sync
+rm -f /boot/fixup_x.dat
+dpkg-divert --package rpikernelhack --remove --rename /boot/fixup_x.dat
+sync
+rm -f /boot/kernel.img
+dpkg-divert --package rpikernelhack --remove --rename /boot/kernel.img
+sync
+rm -f /boot/kernel7.img
+dpkg-divert --package rpikernelhack --remove --rename /boot/kernel7.img
+sync
+rm -f /boot/start.elf
+dpkg-divert --package rpikernelhack --remove --rename /boot/start.elf
+sync
+rm -f /boot/start_cd.elf
+dpkg-divert --package rpikernelhack --remove --rename /boot/start_cd.elf
+sync
+rm -f /boot/start_db.elf
+dpkg-divert --package rpikernelhack --remove --rename /boot/start_db.elf
+sync
+rm -f /boot/start_x.elf
+dpkg-divert --package rpikernelhack --remove --rename /boot/start_x.elf
+sync
+rm -f /boot/overlays/README
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/README
+sync
+rm -f /boot/overlays/ads7846-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/ads7846-overlay.dtb
+sync
+rm -f /boot/overlays/at86rf233-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/at86rf233-overlay.dtb
+sync
+rm -f /boot/overlays/bmp085_i2c-sensor-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/bmp085_i2c-sensor-overlay.dtb
+sync
+rm -f /boot/overlays/dht11-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/dht11-overlay.dtb
+sync
+rm -f /boot/overlays/dwc-otg-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/dwc-otg-overlay.dtb
+sync
+rm -f /boot/overlays/dwc2-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/dwc2-overlay.dtb
+sync
+rm -f /boot/overlays/enc28j60-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/enc28j60-overlay.dtb
+sync
+rm -f /boot/overlays/gpio-ir-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/gpio-ir-overlay.dtb
+sync
+rm -f /boot/overlays/gpio-poweroff-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/gpio-poweroff-overlay.dtb
+sync
+rm -f /boot/overlays/hifiberry-amp-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/hifiberry-amp-overlay.dtb
+sync
+rm -f /boot/overlays/hifiberry-dac-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/hifiberry-dac-overlay.dtb
+sync
+rm -f /boot/overlays/hifiberry-dacplus-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/hifiberry-dacplus-overlay.dtb
+sync
+rm -f /boot/overlays/hifiberry-digi-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/hifiberry-digi-overlay.dtb
+sync
+rm -f /boot/overlays/hy28a-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/hy28a-overlay.dtb
+sync
+rm -f /boot/overlays/hy28b-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/hy28b-overlay.dtb
+sync
+rm -f /boot/overlays/i2c-gpio-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/i2c-gpio-overlay.dtb
+sync
+rm -f /boot/overlays/i2c-rtc-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/i2c-rtc-overlay.dtb
+sync
+rm -f /boot/overlays/i2s-mmap-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/i2s-mmap-overlay.dtb
+sync
+rm -f /boot/overlays/iqaudio-dac-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/iqaudio-dac-overlay.dtb
+sync
+rm -f /boot/overlays/iqaudio-dacplus-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/iqaudio-dacplus-overlay.dtb
+sync
+rm -f /boot/overlays/lirc-rpi-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/lirc-rpi-overlay.dtb
+sync
+rm -f /boot/overlays/mcp2515-can0-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/mcp2515-can0-overlay.dtb
+sync
+rm -f /boot/overlays/mcp2515-can1-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/mcp2515-can1-overlay.dtb
+sync
+rm -f /boot/overlays/mmc-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/mmc-overlay.dtb
+sync
+rm -f /boot/overlays/mz61581-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/mz61581-overlay.dtb
+sync
+rm -f /boot/overlays/piscreen-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/piscreen-overlay.dtb
+sync
+rm -f /boot/overlays/piscreen2r-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/piscreen2r-overlay.dtb
+sync
+rm -f /boot/overlays/pitft28-capacitive-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/pitft28-capacitive-overlay.dtb
+sync
+rm -f /boot/overlays/pitft28-resistive-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/pitft28-resistive-overlay.dtb
+sync
+rm -f /boot/overlays/pps-gpio-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/pps-gpio-overlay.dtb
+sync
+rm -f /boot/overlays/pwm-2chan-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/pwm-2chan-overlay.dtb
+sync
+rm -f /boot/overlays/pwm-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/pwm-overlay.dtb
+sync
+rm -f /boot/overlays/raspidac3-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/raspidac3-overlay.dtb
+sync
+rm -f /boot/overlays/rpi-backlight-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/rpi-backlight-overlay.dtb
+sync
+rm -f /boot/overlays/rpi-dac-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/rpi-dac-overlay.dtb
+sync
+rm -f /boot/overlays/rpi-display-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/rpi-display-overlay.dtb
+sync
+rm -f /boot/overlays/rpi-ft5406-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/rpi-ft5406-overlay.dtb
+sync
+rm -f /boot/overlays/rpi-proto-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/rpi-proto-overlay.dtb
+sync
+rm -f /boot/overlays/rpi-sense-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/rpi-sense-overlay.dtb
+sync
+rm -f /boot/overlays/sdhost-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/sdhost-overlay.dtb
+sync
+rm -f /boot/overlays/sdio-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/sdio-overlay.dtb
+sync
+rm -f /boot/overlays/sdtweak-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/sdtweak-overlay.dtb
+sync
+rm -f /boot/overlays/smi-dev-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/smi-dev-overlay.dtb
+sync
+rm -f /boot/overlays/smi-nand-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/smi-nand-overlay.dtb
+sync
+rm -f /boot/overlays/smi-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/smi-overlay.dtb
+sync
+rm -f /boot/overlays/spi-bcm2708-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/spi-bcm2708-overlay.dtb
+sync
+rm -f /boot/overlays/spi-bcm2835-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/spi-bcm2835-overlay.dtb
+sync
+rm -f /boot/overlays/spi-dma-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/spi-dma-overlay.dtb
+sync
+rm -f /boot/overlays/spi-gpio35-39-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/spi-gpio35-39-overlay.dtb
+sync
+rm -f /boot/overlays/tinylcd35-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/tinylcd35-overlay.dtb
+sync
+rm -f /boot/overlays/uart1-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/uart1-overlay.dtb
+sync
+rm -f /boot/overlays/udrc-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/udrc-overlay.dtb
+sync
+rm -f /boot/overlays/udrx-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/udrx-overlay.dtb
+sync
+rm -f /boot/overlays/vc4-kms-v3d-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/vc4-kms-v3d-overlay.dtb
+sync
+rm -f /boot/overlays/vga666-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/vga666-overlay.dtb
+sync
+rm -f /boot/overlays/w1-gpio-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/w1-gpio-overlay.dtb
+sync
+rm -f /boot/overlays/w1-gpio-pullup-overlay.dtb
+dpkg-divert --package rpikernelhack --remove --rename /boot/overlays/w1-gpio-pullup-overlay.dtb
+sync
+# Automatically added by dh_installmodules
+if [ "$1" = "configure" ]; then
+	if [ -e /boot/System.map-4.4.0-v7+ ]; then
+		depmod -a -F /boot/System.map-4.4.0-v7+ 4.4.0-v7+ || true
+	fi
+fi
+# End automatically added section
+

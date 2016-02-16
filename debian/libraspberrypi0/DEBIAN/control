@@ -1,0 +1,14 @@
+Package: libraspberrypi0
+Source: raspberrypi-firmware
+Version: 1.20160216-1compass1
+Architecture: armhf
+Maintainer: Serge Schneider <serge@raspberrypi.org>
+Installed-Size: 2592
+Depends: raspberrypi-bootloader (= 1.20160216-1compass1)
+Section: libs
+Priority: extra
+Homepage: https://github.com/raspberrypi/firmware
+Description: EGL/GLES/OpenVG/etc. libraries for the Raspberry Pi's VideoCore IV
+ This package contains implementations of EGL, OpenGL ES, OpenVG, OpenWF
+ Composition, and others for the Raspberry Pi's VideoCore IV multimedia
+ processor.
